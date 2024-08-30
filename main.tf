@@ -38,7 +38,7 @@ module "vpc" {
 }
 
 
-resource "aws_security_group" "clumsy_bird_sg" {
+resource "aws_security_group" "clumsy_bird" {
   description = "Clumsy Bird Security Group Access"
   name        = "${var.prefix}-security-group"
 
