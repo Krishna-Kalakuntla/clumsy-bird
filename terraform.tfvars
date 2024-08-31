@@ -1,4 +1,4 @@
 prefix        = "netapp"
 project       = "clumsy-bird"
-environment   = "development"
+environment   = "staging"
 instance_type = "t2.micro"
